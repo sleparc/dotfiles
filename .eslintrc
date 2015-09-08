@@ -1,0 +1,105 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+      "browser": true,
+      "node": true,
+      "phantomjs": true
+  },
+  "settings": {
+      "ecmascript": 6,
+      "jsx": true
+  },
+  "plugins": [
+      "react"
+  ],
+  "globals" :{
+    "it": true,
+    "describe": true,
+    "before": true,
+    "after": true,
+    "beforeEach": true,
+    "afterEach": true,
+    "browser": true,
+    "done": true
+  },
+  "rules": {
+    //
+    // Turn these of and do not issue warnings, some are already off by default.
+    // JSCS enforces some of these options as well. In jshint these were referred
+    // to as "Enforcing options".
+    //
+    "camelcase": [0],
+    "comma-dangle": [0],
+    "comma-style": [0],
+    "consistent-return": [0],
+    "curly": [0],
+    "dot-notation": [0],
+    "eol-last": [0],
+    "new-cap": [0],
+    "new-parens": [0],
+    "no-empty": [0],
+    "no-mixed-requires": [0],
+    "no-plusplus": [0],
+    "no-shadow": [0],
+    "no-underscore-dangle": [0],
+    "space-infix-ops": [0],
+    "wrap-iife": [0],
+    "yoda": [0],
+    "comma-style": [0],
+    "no-trailing-spaces": [0],
+    "quotes": [0],
+
+    //
+    // Throw an exit code if the following happen.
+    //
+    "eqeqeq": [2],
+    "no-caller": [2],
+    "no-extend-native": [2],
+    "no-irregular-whitespace": [2],
+    "no-new": [2],
+    "strict": [2, "global"],
+
+    //
+    // Disallow certain operations or assignments by giving a warning.
+    //
+    "guard-for-in": [2],
+    "no-invalid-this": [2],
+
+    //
+    // Set this to warn because `~` is not considered a bitwise
+    // operator in `jshint`, but IT IS in `eslint`.
+    //
+    "no-bitwise": [1],
+    "no-multi-str": [2],
+    "no-undef": [2],
+    "no-unused-vars": [2],
+    "no-use-before-define": [2, "nofunc"],
+
+     # JSX
+    "react/display-name": 1,
+    "react/jsx-boolean-value": 1,
+    "react/jsx-closing-bracket-location": 1,
+    "react/jsx-curly-spacing": 1,
+    "react/jsx-indent-props": 1,
+    "react/jsx-max-props-per-line": 0,
+    "react/jsx-no-duplicate-props": 1,
+    "react/jsx-no-undef": 1,
+    "react/jsx-quotes": 1,
+    "react/jsx-sort-prop-types": 0,
+    "react/jsx-sort-props": 0,
+    "react/jsx-uses-react": 1,
+    "react/jsx-uses-vars": 1,
+    "react/no-danger": 0,
+    "react/no-did-mount-set-state": 1,
+    "react/no-did-update-set-state": 1,
+    "react/no-multi-comp": 1,
+    "react/no-set-state": 0,
+    "react/no-unknown-property": 1,
+    "react/prop-types": 1,
+    "react/react-in-jsx-scope": 1,
+    "react/require-extension": 1,
+    "react/self-closing-comp": 1,
+    "react/sort-comp": 1,
+    "react/wrap-multilines": 1
+  }
+}

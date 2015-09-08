@@ -1,17 +1,9 @@
-
-[hub]
-protocol = https
-
-[credential]
-helper = /opt/boxen/bin/boxen-git-credential
-
-[core]
-excludesfile = /opt/boxen/config/git/gitignore
-	editor = /usr/bin/vim
 [user]
-	name = Simon Le Parc
-	email = lpl.simon@gmail.com
+  name = Simon Le Parc
+  email = lpl.simon@gmail.com
 [color]
   ui = true
   diff = always
   editor = vim
+[core]
+	editor = /usr/bin/vim
