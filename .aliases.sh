@@ -69,6 +69,10 @@ alias qa_db="ssh release@ec2-184-72-220-234.compute-1.amazonaws.com"
 alias solar_start="rake sunspot:solr:start"
 alias deploy_marketing="_bin/deploy production"
 
+#JOURNEY
+alias jo="cd ~/Journey/"
+alias on="cd ~/Journey/vnext-onboarding/"
+
 
 #MVIM
 alias vimtags="ctags -R ."
