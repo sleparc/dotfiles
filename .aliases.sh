@@ -8,6 +8,7 @@ alias ou="cd /Users/sleparc/Outright/code/outright"
 alias ronin="cd /Users/sleparc/Outright/code/ronin"
 alias outright="cd /Users/sleparc/Sites/Work/outright"
 alias ou="cd /Users/sleparc/Outright/code/outright"
+alias full_outright="cd /Users/sleparc/Outright/code/full_outright"
 alias axe="cd /Users/sleparc/Outright/code/axe"
 alias marketing="cd /Users/sleparc/Sites/Work/marketing"
 alias agg="cd /Users/sleparc/Sites/Work/aggregation"
@@ -71,3 +72,6 @@ alias deploy_marketing="_bin/deploy production"
 
 #MVIM
 alias vimtags="ctags -R ."
+
+
+alias reload="source ~/.zshrc"
