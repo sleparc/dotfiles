@@ -1,0 +1,6 @@
+brew install jenv
+git clone https://github.com/paulirish/git-open.git $ZSH_CUSTOM/plugins/git-open
+
+https://gist.github.com/kevin-smets/8568070
+`POWERLEVEL9K_MODE="awesome-patched"`
+https://github.com/mbadolato/iTerm2-Color-Schemes/issues/59
